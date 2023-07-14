@@ -1,10 +1,10 @@
 # Visual_Anomaly_Detection
 Contains Codes for visual anomaly detection
 
-Part1 ) Uses MVtec_AD datset and using Anomalib from OpenVino toolkit, trains it on specifically transistor images for detecting anomalies. Using EfficientAD from Anomalib.
+Part1 ) Uses MVtec_AD datset and using Anomalib from the OpenVino toolkit, trains it on specifically transistor images for detecting anomalies. Using EfficientAD from Anomalib.
 
 Further plans:
-1) Evaluate it on custom data 
+1) Evaluate it on custom data of good apple's vrs bad.
 
 
 
