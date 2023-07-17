@@ -1,12 +1,12 @@
 # Visual_Anomaly_Detection
 Contains Codes for visual anomaly detection
 
-**Part 1**: Uses MVtec_AD dataset and, using Anomalib from the OpenVino toolkit, trains it on specifically transistor images for detecting anomalies, using EfficientAD from Anomalib.
+**Part 1**: Uses the MVtec_AD dataset and, using Anomalib from the OpenVino toolkit, trains it on specifically transistor images for detecting anomalies, using EfficientAD from Anomalib.
 
 Further plans:
 1) Test all the network architectures available in Anomalib for their latency.
-2) Evaluate it on custom data of good apples vs. bad apples.
-3) Implement it on Tensorflow lite, and use it o generate portable files on Android.
+2) Evaluate it on custom data on good apples vs. bad apples.
+3) Implement it on Tensorflow Lite and use it to generate portable files on Android.
 4) Custom model on Jetson Nano using Efficient net architecture for faster inference times.
 
 
@@ -31,8 +31,17 @@ Dataset reference:
 
 **Part 2**: Uses Alibi_detect
 
+Outlier detection using alibi-detect:
+Alibi Detect is an open-source Python library focused on outlier, adversarial, and drift detection. 
+The package aims to cover both online and offline detectors for tabular data, text, 
+images, and time series. The outlier detection methods should allow the user to 
+identify global, contextual, and collective outliers.
 
 Video Tutorial References:
 1) https://www.youtube.com/watch?v=2K3ScZp1dXQ
+2) https://www.youtube.com/watch?v=Pql6ShORpNU&t=433s
+
+Code References:
+1) https://github.com/bnsreenu/python_for_microscopists/blob/master/264%20-%20Image%20outlier%20detection%20using%20alibi-detect/264_alibinet_outlier_detection.py
 
 
