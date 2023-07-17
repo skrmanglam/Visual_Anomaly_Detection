@@ -1,7 +1,7 @@
 # Visual_Anomaly_Detection
 Contains Codes for visual anomaly detection
 
-Part 1: Uses MVtec_AD dataset and, using Anomalib from the OpenVino toolkit, trains it on specifically transistor images for detecting anomalies, using EfficientAD from Anomalib.
+**Part 1**: Uses MVtec_AD dataset and, using Anomalib from the OpenVino toolkit, trains it on specifically transistor images for detecting anomalies, using EfficientAD from Anomalib.
 
 Further plans:
 1) Test all the network architectures available in Anomalib for their latency.
@@ -23,7 +23,16 @@ Anomalib Documentation:
 Paper References:
 1) https://arxiv.org/abs/2202.08341 -> Anomalib
 2) https://arxiv.org/pdf/2303.14535.pdf -> EfficientAD
----Other papers can be found at Anomalib's github page---
+---Other papers can be found on Anomalib's GitHub page---
 
 Dataset reference: 
 1) https://www.mvtec.com/company/research/datasets/mvtec-ad
+
+
+**Part 2**: Uses Alibi_detect
+
+
+Video Tutorial References:
+1) https://www.youtube.com/watch?v=2K3ScZp1dXQ
+
+
